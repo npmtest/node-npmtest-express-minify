@@ -1,6 +1,6 @@
 # npmtest-express-minify
 
-#### test coverage for  [express-minify (v0.2.0)](https://github.com/SummerWish/express-minify)  [![npm package](https://img.shields.io/npm/v/npmtest-express-minify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-minify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-minify.svg)](https://travis-ci.org/npmtest/node-npmtest-express-minify)
+#### basic test coverage for  [express-minify (v0.2.0)](https://github.com/SummerWish/express-minify)  [![npm package](https://img.shields.io/npm/v/npmtest-express-minify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-minify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-minify.svg)](https://travis-ci.org/npmtest/node-npmtest-express-minify)
 
 #### Automatically minify and cache your javascript and css files.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-express-minify/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-express-minify/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-express-minify/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-express-minify/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-minify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-minify/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-express-minify/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-express-minify/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-minify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-minify/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-express-minify/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-express-minify/build/coverage.html/index.html)
 
@@ -89,7 +89,8 @@
     "scripts": {
         "test": "mocha --check-leaks --reporter dot"
     },
-    "version": "0.2.0"
+    "version": "0.2.0",
+    "bin": {}
 }
 ```
 
